@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Les outils numériques pour le débat public</title>
+		<meta name="author" content="Fabien Poulard">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="./reveal.js-2.5.0/css/reveal.min.css">
+		<!--<link rel="stylesheet" href="./reveal.js-2.5.0/css/theme/default.css" id="theme">-->
+		<link rel="stylesheet" href="./reveal.js-2.5.0/css/theme/serif.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="./reveal.js-2.5.0/lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="./reveal.js-2.5.0/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<style>
+		img {
+			border: 0px solid black;
+		}
+		</style>
+
+		<!--[if lt IE 9]>
+		<script src="./reveal.js-2.5.0/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+<!-- FRONT SLIDE -->
+<section>
+	<h2>Les outils numériques pour le débat public</h2>
+	<p>
+		<small>Par <a href="http://www.fabienpoulard.info">Fabien Poulard</a> / <a href="http://twitter.com/grdscarabe">@grdscarabe</a> / <a href="http://www.dictanova.com">Dictanova</a></small>
+	</p>
+	<p>
+		<small>4 décembre 2013 -- Conseil de développement de Nantes métropole</small>
+	</p>
+</section>
+
+<!-- CONTEXTE -->
+<section>
+	<section>
+		<h2>Débat public ?</h2>
+		<blockquote cite="http://fr.wikipedia.org/wiki/Débat_public_en_France">La loi L.95-101 du 2 février 1995 [...] prévoit l’association et la participation du public à «l’élaboration des projets d’aménagement ou d’équipement ayant une incidence importante sur l’environnement ou sur l’aménagement du territoire»</blockquote>
+		<p style="text-align: right; height: 25px;">
+			<span style="display: inline-block; height: 100%; vertical-align: middle;"></span>
+			<img src="./images/Wikipedia-logo.gif" style="border: 0px solid black; vertical-align: middle" />
+			<small style="vertical-align: middle">Wikipedia</small>
+		</p>
+	</section>
+
+	<section>
+		<h2>Débat public ?</h2>
+		Le débat public doit permettre :
+		<ul>
+			<li>D’<b>informer</b> le public sur l’opportunité, les caractéristiques et objectifs du projet</li>
+			<li>D’<b>assurer l’expression</b> la plus large possible du public à l’aide de différents supports</li>
+			<li>D’<b>éclairer</b> le maître d’ouvrage par de nouveaux éléments d’appréciations</li>
+		</ul>
+		<p style="text-align: right; height: 25px;">
+			<span style="display: inline-block; height: 100%; vertical-align: middle;"></span>
+			<img src="./images/Wikipedia-logo.gif" style="border: 0px solid black; vertical-align: middle" />
+			<small style="vertical-align: middle">Wikipedia</small>
+		</p>
+	</section>
+
+	<!--
+		L’International Association for Public Participation 9 distingue cinq niveaux de
+participation, selon le degré d’implication des citoyens (collectifs ou
+individus) dans le processus :
+• Informer : les citoyens sont simplement informés des décisions
+     prises.
+• Consulter : les citoyens sont invités à donner leur avis et/ou
+     proposer des alternatives relatives à la décision à prendre ou une
+       partie de son processus.
+• Impliquer : les citoyens sont impliqués dans le processus de
+    décision. Les preneurs de décision sont invités à respecter un certain
+       degré d’engagement afin de prendre en compte les propositions des
+         parties prenantes.
+• Collaborer : les citoyens participent activement au processus de
+décision dans son ensemble et sont reconnus comme des acteurs à
+ part entier dans le processus. A ce stade on peut envisager une
+collaboration planifiée lorsqu’elle concerne des initiatives lancées par
+   un service et dont la portée de la collaboration avec les différentes
+    parties prenantes est limitée ou alors non planifiée lorsqu’elle
+       concerne des initiatives qui sont lancées par des partie prenantes
+       externes, souvent organisées.
+• Autonomiser : le processus de décision est simplement guidé ou
+     facilité par les initiateurs. Les décisions sont amenées et prises par
+       l’ensemble des citoyens participants à la prise de décisions.
+
+	-->
+</section>
+
+<!-- DÉMOCRATIE OUVERTE -->
+<section>
+	<section>
+		<h2>Débat public = Démocratie ouverte ?</h2>
+	</section>
+	<section>
+		<img src="./images/Démocratie_Ouverte.png" />
+	</section>
+	<section>
+		<img src="./images/Démocratie_Ouverte2.png" />
+	</section>
+
+	<section>
+		<h3>Débat public &isin; Démocratie ouverte</h3>
+		<p>La démocratie ouverte passe notamment par</p>
+		<ul>
+			<li>La concertation = organisation de débats publics</li>
+			<li>La consultation des citoyens : critique, avis, idées</li>
+			<li>La pédagogie</li>
+		</ul>
+	</section>
+
+	<section>
+		<h3>Si on devait tenter un parallèle...</h3>
+		<table cellpadding="1em">
+			<tr><th><b>Débat public</b></th><th>vs.</th><th><b>Démocratie ouverte</b></th></tr>
+			<tr><td>Informer le public</td><td></td><td>Pédagogie</td></tr>
+			<tr><td>Assurer l’expression du public</td><td></td><td>Consultation</td></tr>
+			<tr><td>Éclairer le maître d’ouvrage</td><td></td><td>Résultat de la consultation</td></tr>
+			<tr><td>Débat public</td><td></td><td>Concertation</td></tr>
+		</table>
+	</section>
+
+	<section>
+		<h3>Définition cyclique !</h3>
+		<img src="./images/meme-fullretard.jpg" />
+	</section>
+</section>
+
+<!-- PAR L'EXEMPLE -->
+<section>
+	<section>
+		<h3>Mise en abîme : Internet</h3>
+		<a href="./images/Qui_Dirige_Internet.png"><img src="./images/Qui_Dirige_Internet.png" /></a>
+	</section>
+
+	<section>
+		<h3>Gouvernance d'Internet</h3>
+		<p>Parties prenantes :</p>
+		<ul>
+			<li>Volumineuses</li>
+			<li>Variées</li>
+			<li>Valeurs des contributions différentes</li>
+		</ul>
+		<p class="fragment roll-in">3V du Big Data => Big <i>Collegia</i> par certains aspects</p>
+		<!-- Collegia = part active de la plèbe (Rome) qui défend des intérêts ponctuels-->
+	</section>
+
+	<section>
+		<h3>Gouvernance d'Internet</h3>
+		<p>Débat ouvert pluripartie</p>
+		<ol>
+			<li>Réunions <span class="fragment roll-in">: informer et assurer l'expression du public</span></li>
+			<li>Documents partagés via Internet <span class="fragment roll-in">: assurer l'expression du public</span></li>
+			<li>Forums publics <span class="fragment roll-in">: informer et assurer l'expression du public</span></li>
+			<li>Publications <span class="fragment roll-in">: éclairer le maître d'ouvrage</span></li>
+			<li>... </li>
+		</ol>
+		<p class="fragment roll-in">Débouche sur des <b>politiques et des normes</b> sur la base desquels seront construits les <b>services</b>.</p>
+	</section>
+
+	<section>
+		<h3>Gouvernance d'Internet</h3>
+		<p>Un processus itératif :</p>
+		<p>les politiques et les normes guident les débats et la prise de décisions</p>
+		<a href="http://fr.wikipedia.org/wiki/Roue_de_Deming"><img src="./images/Roue_de_Deming.svg.png" width="500px" /></a>
+	</section>
+</section>
+
+<!-- SOMMAIRE -->
+
+<section>
+	<h2>Plongeon(s) dans l'expérimentation !</h2>
+	<ul>
+		<li class="fragment roll-in">Informer le public</li>
+		<li class="fragment roll-in">Assurer l’expression du public</li>
+		<li class="fragment roll-in">Éclairer le maître d’ouvrage</li>
+	</ul>
+</section>
+
+<!-- INFORMER -->
+<section>
+	<section>
+		<h2>Informer le public</h2>
+	</section>
+
+	<section>
+		<h3>Exemple : Légifrance et EUR-Lex</h3>
+		<ul>
+			<li>Objectif : permettre l'accès au droit</li>
+			<li><a href="http://www.legifrance.gouv.fr/">Légifrance</a> à l'échelle de l'État français</li>
+			<li><a href="http://eur-lex.europa.eu/fr/index.htm">EUR-Lex</a> à l'échelle Européenne</li>
+		</ul>
+		<table>
+			<tr>
+				<td><a href="http://eur-lex.europa.eu/fr/index.htm"><img src="./images/eurlex.png" width="400px" /></a></td>
+				<td><a href="http://www.legifrance.gouv.fr/"><img src="./images/legifrance.png" width="400px" /></a></td>
+			</tr>
+		</table>
+		<p class="fragment roll-in">Information ? Pas accessible à tous !</li></a>
+	</section>
+
+	<section>
+		<h3>Contre-exemple</h3>
+		<table>
+			<tr>
+				<td>
+					<a href="http://www.droitsquotidiens.be/table-des-publications.html"><img src="./images/droitquotidien-be.png" width="600px" /></a>
+					<center><small>Portail Belge des droits quotidiens</small></center>
+				</td>
+				<td>
+					<a href="http://www.justice.gouv.tg/6_justvous/index_vulgarisation.htm"><img src="./images/justicetogo.png" width="600px" /></a>
+					<center><small>Portail de la Justice du Togo</small></center>
+				</td>
+			</tr>
+		</table>
+		<p class="fragment roll-in">(Tentative de) Vulgarisation</li></a>
+	</section>
+
+	<section>
+		<h3>Exemple : Conseils municipaux de la ville de Saint-Denis</h3>
+		<a href="http://www.synople.tv/ville-saint-denis/index.html">
+			<img src="./images/seancesconseil-ville-saintdenis.png" />
+		</a>
+	</section>
+	<section>
+		<h3>Exemple : Conseils municipaux de la ville de Saint-Denis</h3>
+		<ul>
+			<li>Chaque séance est diffusée en direct</li>
+			<li>Archives disponibles en ligne</li>
+			<li>Synchronisatino avec l'ordre du jour en parallèle</li>
+		</ul>
+	</section>
+	<section>
+		<h3>Exemple complémentaire : MonPuteaux</h3>
+		<a href="http://www.monputeaux.com/2013/12/village-theatre-puteaux.html">
+			<img src="./images/MonPuteaux.png" />
+		</a>
+	</section>
+	<section>
+		<h3>Exemple complémentaire : MonPuteaux</h3>
+		<ul>
+			<li>Blog citoyen à l'origine</li>
+			<li>Politisation au fur et à mesure</li>
+		</ul>
+	</section>
+
+	<section>
+		<h3>Chat géant de Barack Obama</h3>
+		<iframe width="560" height="315" src="http://www.youtube.com/embed/YPPT9pWhivM" frameborder="0" allowfullscreen></iframe>
+	</section>
+	<section>
+		<h3>Chat géant de Barack Obama</h3>
+		<ul>
+			<li>92 900 Américains ont participé</li>
+			<li>104 130 questions posées</li>
+			<li>36 heures pour communiquer leurs interrogations par courriel</li>
+			<li>Transcript complet <a href="http://www.whitehouse.gov/the_press_office/Remarks-by-the-President-at-Open-for-Questions-Town-Hall/">en ligne</a></li>
+	</section>
+</section>
+
+<!-- ASSURER L'EXPRESSION DU PUBLIC -->
+<section>
+	<section>
+		<h2>Assurer l’expression du public</h2>
+	</section>
+
+	<section>
+		<h3>Exemple : Conseil de la Jeunesse</h3>
+		<a href="http://www.conseildelajeunesse.be/">
+			<img src="./images/Conseildelajeunesse.png" />
+		</a>
+	</section>
+	<section>
+		<h3>Exemple : Conseil de la Jeunesse</h3>
+		<ul>
+			<li>Boîte à idées</li>
+			<li>Publications</li>
+		</ul>
+	</section>
+
+	<section>
+		<h3>La constitution de l'Islande</h3>
+		<a href="http://stjornlagarad.is/starfid/frumvarp/">
+			<img src="./images/islande.png" />
+		</a>
+	</section>
+	<section>
+		<h3>La constitution de l'Islande</h3>
+		<ul>
+			<li>Élection d'un conseil constitutionnel de 25 membres</li>
+			<li>Diffusion vidéo des réunions (<i>streaming</i>), notamment sur Facebook</li>
+			<li>Élaboration de la constitution sur un site public ouvert aux commentaires</li>
+			<li>1.600 propositions et commentaires recueillies</li>
+		</ul>
+	</section>
+	<section>
+		<h3>La constitution de l'Islande</h3>
+		<p>Outils</p>
+		<ul>
+			<li><a href="https://www.facebook.com/Stjornlagarad">Page Facebook</a></li>
+			<li><a href="https://twitter.com/Stjornlagarad">Compte Twitter</a></li>
+			<li><a href="http://www.youtube.com/stjornlagarad">Chaîne YouTube</a></li>
+		</ul>
+	</section>
+
+	<section>
+		<h3>Forums</h3>
+		<ul>
+			<li><a href="http://archives.forum.gouv.fr/">Forums de l'État</a></li>
+		</ul>
+	</section>
+</section>
+
+<!-- ÉCLAIRER LE MAÎTRE D'OUVRAGE -->
+<section>
+	<section>
+		<h2>Éclairer le maître d’ouvrage</h2>
+	</section>
+
+	<section>
+		<h3>Cahiers de propositions</h3>
+		<a href="http://www.alliance21.org/2003/rubrique.php3?id_rubrique=174">Alliance 21</a>
+	</section>
+
+	<section>
+		<h3>Sondages en ligne</h3>
+		<ul>
+			<li><a href="http://www.avaaz.org/fr/">Communauté Avaaz</a></li>
+	</section>
+</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="./reveal.js-2.5.0/lib/js/head.min.js"></script>
+		<script src="./reveal.js-2.5.0/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: './reveal.js-2.5.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: './reveal.js-2.5.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: './reveal.js-2.5.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: './reveal.js-2.5.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: './reveal.js-2.5.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: './reveal.js-2.5.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
