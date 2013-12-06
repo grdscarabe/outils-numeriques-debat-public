@@ -1,7 +1,7 @@
-DATA LESSONS
-============
+OUTILS NUMÉRIQUES POUR LE DÉBAT PUBLIC
+======================================
 
-Supports pour les cours «data quality» et «datamining» à l'EPSI de Nantes.
+Supports de présentation pour la conférence «Les outils numériques pour le débat public» par le Conseil de Développement de Nantes Métropole le 4 décembre 2013.
 
 Installation
 ------------
